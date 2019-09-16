@@ -14,10 +14,6 @@ if (!requireNamespace("BiocManager", quietly = TRUE))
 BiocManager::install("flowCore")
 BiocManager::install("flowTrans")
 BiocManager::install("FlowSOM")
-BiocManager::install("cytofkit")
 
-#Phenograph for R from Github
-(!require(devtools)){
-  install.packages("devtools") # If not already installed
-}
+install.packages("devtools") 
 devtools::install_github("JinmiaoChenLab/Rphenograph")
