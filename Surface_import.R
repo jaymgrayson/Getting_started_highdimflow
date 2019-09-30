@@ -4,7 +4,7 @@
 rm(list = ls())
 
 # Set your working directory (where fcs files are !)
-setwd("~/Documents/Science_Materials/BMT/Flow_Cytometry/Validation_Data/Validation_D15_CD3_POS")
+setwd("")
 
 # Import some key flow libraries
 library(flowCore)
